@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    background-color:rgb(66,113,81);
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(159,110,60);
+    margin: 0px;
+    font-family: Garamond, serif;
+    font-weight: 700;
+}
+#tI{
+    width: 55%;
+    height: 22vw;
+     vertical-align: middle;
+
+    text-align: center;
+    color:white;
+    float:left;
+    font-size: 3vw;
+    border-bottom: 1px;
+    border-bottom-color: white;
+}
+#log{
+    float: right; 
+}
+#logo {
+    margin: 0px;
+    border-style: solid;
+   border-color: black;
+    border-width: 1%;
+    width:40vw;
+    height:30vw;
+    border-radius: 50%;
+    float:right;
+    
+
+}
+.intro{
+    text-align: justify;
+    color: white;
+    font-size: 2vw;
+    margin: 10%;
+    margin-top: 4%;
+    clear:right;
+    border-top: 1px;
+    border-color: white;
+}
+
+#f1{
+    margin: 30% 5% 10% 5%;
+    padding: 2%;
+    background-color:white;
+    border-radius: 10px;
+    font-size: 3vw;
+}
+
+
+h2{
+    margin-left: 4%;
+    color: white;
+    font-size: 4vw;
+}
