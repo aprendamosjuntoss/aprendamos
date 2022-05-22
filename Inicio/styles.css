@@ -47,14 +47,39 @@ body {
 }
 
 #f1{
-    margin: 30% 5% 10% 5%;
+    margin:10% 5%;
     padding: 2%;
     background-color:white;
     border-radius: 10px;
     font-size: 3vw;
 }
-
-
+#fisica{
+    background-color: whitesmoke;
+}
+#ingles{
+    background-color: skyblue;
+}
+#mates{
+    background-color: red;
+}
+#bio{
+    background-color: gray;
+}
+#leng{
+    background-color: yellow;
+}
+.materia{
+        width: 10%;
+        background-color:rgb(255,255,255);
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 2vw;
+        color:black;
+        margin: 5% 4%;
+        clear: left;
+}
 h2{
     margin-left: 4%;
     color: white;
