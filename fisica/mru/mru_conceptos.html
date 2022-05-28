@@ -15,7 +15,13 @@
                 <li>Uniforme: Su velocidad es constante o en otras palabras su aceleración es igual a 0</li>
             </ul>
             <div>
-                <button id="b1" onclick=" document.getElementById('op1').style.display='block'">escribir lo que aarecera</button>
+                <button id="b1" onclick="myFunction()"><img src="op1.jpg" alt="carretera curva" > Aceleracion constante</button>
+                <script>
+                    function myFunction() {
+                      document.getElementById("b1").style.display = "none";
+                      document.getElementById("op1").style.display = "block";
+                    }
+                </script>
                 <div hidden id="op1">
                 <ul>
                 <li>No se mueve en una linea recta</li>
