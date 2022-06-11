@@ -5,8 +5,20 @@ body {
     border-width: 8px;
     border-color: rgb(159,110,60);
     margin: 0px;
-    font-family: Garamond, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+}
+@media only screen and (max-width:800px ) {
+    .menu li {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .menu{
+        width: 100%;
+    }
+    #f1{
+        max-height: 150px;
+    }
 }
 #cont{
     position: absolute;
@@ -19,21 +31,28 @@ body {
 }
 .menu a{
     text-decoration: none;
-    color: black;
-    padding: 15px;
+    color: white;
+    padding: 17px;
     margin-top:0px;
+    background-color: rgb(115, 115, 115);
+
+}
+#inicio{
+    border-bottom-left-radius: 50%;
 }
 .menu a:hover{
-    background-color: yellow;
+    background-color: white;
+    color:rgb(115, 115, 115);
 }
 #tI{
     position:relative;
     z-index: 1;
     margin-top: 0%;
-   margin-left: 40%;
+    margin-left: 30%;
+    margin-right: 10%;
     vertical-align: middle;
     text-align: center;
-    color: black;
+    color: white;
     border-bottom: 1px;
     border-bottom-color: white;
     max-height: 300px;
@@ -47,7 +66,8 @@ body {
     width:100%;
     margin-top: 1%;
     margin-bottom: 0%;
-    color:black;
+    color:white;
+    
 
 
 }
@@ -69,6 +89,7 @@ body {
 }
 
 #f1{
+    display:block;
     margin:10% 5%;
     padding: 2%;
     background-color:white;
@@ -106,4 +127,5 @@ h2{
     margin-left: 4%;
     color: white;
     font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
