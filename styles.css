@@ -9,15 +9,26 @@ body {
     font-weight: 700;
 }
 @media only screen and (max-width:800px ) {
-    .menu li {
+    .menu li  {
         display: block;
         margin-bottom: 20px;
+        width:100%;
+        margin-top: 15px ;
     }
-    .menu{
+    .menu a{
         width: 100%;
+        background-color: rgb(115, 115, 115);
     }
     #f1{
+        position: absolute;
+        top: 30%;
         max-height: 150px;
+    }
+    #f1 p {
+        max-height: 150px;
+    }
+    #inicio{
+        border-bottom-left-radius: 0px;
     }
 }
 #cont{
