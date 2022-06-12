@@ -7,10 +7,14 @@ body {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
+    color:white;
 }
 @media only screen and (max-width:800px ) {
+    .menu{
+        text-align: left;
+    }
     .menu li  {
-        display: block;
+        display: grid;
         margin-bottom: 20px;
         width:100%;
         margin-top: 15px ;
@@ -22,6 +26,7 @@ body {
     #f1{
         position: absolute;
         top: 30%;
+        margin: 30% 5%;
         max-height: 150px;
     }
     #f1 p {
@@ -31,8 +36,9 @@ body {
         border-bottom-left-radius: 0px;
     }
 }
-#cont{
+.cont{
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .menu{
     float:right;
@@ -82,7 +88,7 @@ body {
 
 
 }
-#log{
+.log{
     z-index: 2;
     max-height: 250px ; 
     width: 100%;
@@ -103,9 +109,10 @@ body {
     display:block;
     margin:10% 5%;
     padding: 2%;
-    background-color:white;
+    background-color:#ffffff;
     border-radius: 10px;
     font-size: 3vw;
+    color:black;
 }
 #fisica{
     background-color: whitesmoke;
@@ -139,4 +146,35 @@ h2{
     color: white;
     font-size: 4vw;
     font-family: Arial, Helvetica, sans-serif;
+}
+#izquierda{
+    position:relative;
+    z-index: 1;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    margin-right: 0px;
+    width:25vw;
+    float: left;
+    vertical-align: middle;
+    text-align: left;
+    color: white;
+   
+}
+#derecha{
+    display: inline-block;
+    position: relative;
+    z-index: inherit;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    vertical-align: middle;
+    text-align: left;
+    clear: right;
+    width: 20vw;
+    border-left: black 5px;
+
+    
+}
+#footer{
+   font-size: 1.8vw; 
 }
