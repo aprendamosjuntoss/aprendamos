@@ -1,180 +1,139 @@
 body {
     box-sizing: border-box;
-    background-color:rgb(66,113,81);
+    background-color: rgb(66, 113, 81);
     border-style: solid;
     border-width: 8px;
-    border-color: rgb(159,110,60);
+    border-color: rgb(177, 107, 38);
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color:white;
+    color: white;
 }
-@media only screen and (max-width:800px ) {
-    .menu{
-        text-align: left;
-    }
-    .menu li  {
-        display: grid;
-        margin-bottom: 20px;
-        width:100%;
-        margin-top: 15px ;
-    }
-    .menu a{
-        width: 100%;
-        background-color: rgb(115, 115, 115);
-    }
-    #f1{
-        position: absolute;
-        top: 30%;
-        margin: 30% 5%;
-        max-height: 150px;
-    }
-    #f1 p {
-        max-height: 150px;
-    }
-    #inicio{
-        border-bottom-left-radius: 0px;
-    }
-}
-.cont{
+
+.cont {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
 }
-.menu{
-    float:right;
-}
-.menu li{
-    display: inline-block;
-}
-.menu a{
-    text-decoration: none;
-    color: white;
-    padding: 17px;
-    margin-top:0px;
-    background-color: rgb(115, 115, 115);
 
-}
-#inicio{
-    border-bottom-left-radius: 50%;
-}
-.menu a:hover{
-    background-color: white;
-    color:rgb(115, 115, 115);
-}
-#tI{
-    position:relative;
-    z-index: 1;
-    margin-top: 0%;
+#tI {
+    position: relative;
     margin-left: 30%;
-    margin-right: 10%;
-    vertical-align: middle;
     text-align: center;
-    color: white;
+    vertical-align: middle;
     border-bottom: 1px;
     border-bottom-color: white;
     max-height: 300px;
 }
-#tI p{
+
+#tI h2 {
+    font-size: 5vw;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+#tI p {
     font-size: 2vw;
     margin-top: 3%;
 }
-#tI h2{
-    font-size: 5vw;
-    width:100%;
-    margin-top: 1%;
-    margin-bottom: 0%;
-    color:white;
-    
 
-
-}
-.log{
-    z-index: 2;
-    max-height: 250px ; 
+#log {
+    margin-bottom: -2px;
+    max-height: 250px;
     width: 100%;
     border-bottom-left-radius: 5%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(53, 53, 53, 0.925);
 }
-.intro{
-    text-align: justify;
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
     color: white;
+    padding: 14px;
+    border-top: 0px;
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-right-color: rgba(53, 53, 53, 0.925);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(53, 53, 53, 0.925);
+    background-color: rgb(128, 126, 126);
+}
+
+#lenguaje {
+    border-right-width: 0px;
+
+}
+
+#inicio {
+    border-bottom-left-radius: 50%;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: rgba(53, 53, 53, 0.925);
+}
+
+#f1 {
+    margin: 10% 5%;
+    margin-bottom: 50px;
+    padding: 2%;
+    background-color: #ffffff;
+    border-radius: 10px;
     font-size: 2vw;
-    margin: 10%;
-    margin-top: 4%;
-    clear:right;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 0px;
+    margin-left: 4%;
+    color: white;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    text-align: justify;
+    font-size: 2vw;
+    margin: 4% 10%;
+    clear: right;
     border-top: 1px;
     border-color: white;
 }
 
-#f1{
-    display:block;
-    margin:10% 5%;
-    padding: 2%;
-    background-color:#ffffff;
-    border-radius: 10px;
-    font-size: 3vw;
-    color:black;
+#footer {
+    background-color: rgb(128, 126, 126);
+    max-height: 125px;
+    min-height: 100px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgba(53, 53, 53, 0.925);
 }
-#fisica{
-    background-color: whitesmoke;
-}
-#ingles{
-    background-color: skyblue;
-}
-#mates{
-    background-color: red;
-}
-#bio{
-    background-color: gray;
-}
-#leng{
-    background-color: yellow;
-}
-.materia{
-        width: 10%;
-        background-color:rgb(255,255,255);
-        padding: 15px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 2vw;
-        color:black;
-        margin: 5% 4%;
-        clear: left;
-}
-h2{
-    margin-left: 4%;
-    color: white;
-    font-size: 4vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#izquierda{
-    position:relative;
-    z-index: 1;
-    margin-left: 20vw;
-    margin-top: 5vh;
-    margin-right: 0px;
-    width:25vw;
-    float: left;
-    vertical-align: middle;
-    text-align: left;
-    color: white;
-   
-}
-#derecha{
-    display: inline-block;
-    position: relative;
-    z-index: inherit;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 5vh;
-    vertical-align: middle;
-    text-align: left;
-    clear: right;
-    width: 20vw;
-    border-left: black 5px;
 
-    
+#footer div {
+    margin-left: 10vw;
+    margin-right: 15vw;
+    font-size: 1em;
 }
-#footer{
-   font-size: 1.8vw; 
+
+#left {
+    float: left;
+}
+
+#der {
+    margin-top: 2%;
+    clear: right;
+    text-align: justify;
+    vertical-align: middle;
+}
+#left a{
+ 
+    color: white;
 }
