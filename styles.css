@@ -68,6 +68,10 @@ body {
     border-bottom-color: rgba(53, 53, 53, 0.925);
     background-color: rgb(128, 126, 126);
 }
+.menu a:hover {
+    color: rgb(128, 126, 126);
+    background-color: white;
+}
 
 #lenguaje {
     border-right-width: 0px;
