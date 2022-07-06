@@ -85,6 +85,46 @@ body {
     border-left-color: rgba(53, 53, 53, 0.925);
 }
 
+.arti{
+    background-color: rgb(64, 152, 202);
+    height: 160px;
+    max-width: 70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 70px;
+    border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(53, 53, 53);
+    margin-bottom: 2%;
+}
+.img{
+    margin: 10px;
+    border-radius: 25px;
+    width: 25%;
+    height: 120px;
+    background-color: whitesmoke;/*esto luego se debe quitar*/
+    color: black;
+    display: inline-block;
+    clear: left;
+    vertical-align: middle;
+}
+.intro{
+    max-width: 580px;
+    float: right;
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.arti:hover{
+    border-color: black;
+    color: black;
+}
 #footer {
     background-color: rgb(128, 126, 126);
     max-height: 125px;
