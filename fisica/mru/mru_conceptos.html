@@ -1,0 +1,106 @@
+<DOCTYPE! html>
+    <html lang="es">
+    <head>
+        <title>mru_concepto</title>
+        <link href="mru_conceptos.css" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        </head>
+        <body>
+            <div id="index">
+                <h3><b>index</b></h3>
+                <ol>
+                    <li><a class="link" href="#mru">Movimiento Rectilíneo Uniforme (MRU)</a></li>
+                    <li><a class="link" href="#gmru">Gráficos del MRU</a></li>
+                    <li><a class="link" href="#fb">Formula básica</a></li>
+                    <li><a class="link" href="#tri">El Triangulo</a></li>
+                </ol>
+            </div>
+           <h1 id="mru"><b>Movimiento Rectilíneo Uniforme (MRU)</b></h1>
+            <ul>
+                <li>Movimiento:Sabemos que el objeto que vamos a estudiar esta en movimiento, por ende la velocidad sera diferente a 0</li>
+                <li>Rectilíneo:El movimiento debe ser en linea recta</li>
+                <li>Uniforme: Su velocidad es constante o en otras palabras su aceleración es igual a 0</li>
+            </ul>
+            <div>
+                <h3>dale click a la imagen que cumpla con las condiciones del MRU</h3>
+                <button id="b1" onclick="myFunction()"><img src="op1.jpg" alt="carretera curva" > Aceleración constante</button>
+                <button id="b2" onclick="myFunction2()"><img src="op2.jpg" alt="carretera curva" > Velocidad  constante</button>
+                <button id="b3" onclick="myFunction3()"><img src="op3.jpg" alt="carretera recta" > Aceleración constante</button>
+                <button id="b4" onclick="myFunction4()"><img src="op4.jpg" alt="carretera curva" > Velocidad constante</button>
+                <script>
+                    function myFunction() {
+                      document.getElementById("b1").style.display = "none";
+                      document.getElementById("op1").style.display = "block";
+                    }
+                    function myFunction2() {
+                      document.getElementById("b2").style.display = "none";
+                      document.getElementById("op2").style.display = "block";
+                    }
+                    function myFunction3() {
+                      document.getElementById("b3").style.display = "none";
+                      document.getElementById("op3").style.display = "block";
+                    }
+                    function myFunction4() {
+                      document.getElementById("b4").style.display = "none";
+                      document.getElementById("op4").style.display = "block";
+                    }
+                </script>
+                <div hidden id="op1">
+                <ul>
+                <li class="mal">No se mueve en una linea recta</li>
+                <li class="mal">No tiene una velocidad constante</li>
+                </ul>
+                </div>
+                <div hidden id="op2">
+                <ul>
+                <li class="mal">No se mueve en una linea recta</li>
+                <li class="bien">si tiene una velocidad constante</li>
+                </ul>
+                </div>
+                <div hidden id="op3">
+                <ul>
+                <li class="bien">Si se mueve en una linea recta</li>
+                <li class="mal">No tiene una velocidad constante</li>
+                </ul>
+                </div>
+                <div hidden id="op4">
+                <ul>
+                <li class="bien">No se mueve en una linea recta</li>
+                <li class="bien">No tiene una velocidad constante</li>
+                </ul>
+                </div>
+            </div>
+          
+            <div>
+                <h2 id="gmru"><b>Gráficos del MRU</b></h2>
+                <br>
+                <p>La gráfica de la distancia en un MRU 
+                    <br>
+                    <img src="gvdis.png"></p>
+                <br>
+                <p>La gráfica de la velocidad en un MRU 
+                    <br>
+                    <img src="gvel.png"></p>
+            </div>
+            <div>
+                <h2 id="fb"><b>Formula básica</b></h2> 
+                <br>
+                <img src="img1.png">
+                <p>Las unidades usadas con esta formula están basadas en el sistema internacional por ende las unidades son:</p>
+                <ul>
+                    <li>Distancia: en metros (m)</li>
+                    <li>Tiempo: en segundos (s)</li>
+                    <li>Velocidad: en metros sobre segundos (m/s)</li>
+                </ul>
+            </div>
+            <div> 
+            <h2 id="tri"><b>El Triangulo</b></h2>
+            <p>el Triangulo muestra las distintas operaciones que se pueden hacer</p>
+            </div>
+        </body>
+    </html>
+    
+    
+</DOCTYPE!>
