@@ -1,2 +1,2 @@
 # aprendamos
-Aprendamos juntos es un proyecto estudiantil hecho por un grupo de estudiantes  del colegio Francisco de Miranda, este proyecto se trata de una pagina web en las cual se sube información sobre ciertas materias, para que los estudiantes puedan aclarar sus dudas.
+pagina web estudiantil
