@@ -9,6 +9,7 @@ body {
     font-weight: 700;
     color: white;
 }
+
 .cont {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,4 +83,35 @@ body {
     border-left-width: 3px;
     border-left-style: solid;
     border-left-color: rgba(53, 53, 53, 0.925);
+}
+
+
+#footer {
+    background-color: rgb(128, 126, 126);
+    max-height: 125px;
+    min-height: 100px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgba(53, 53, 53, 0.925);
+}
+
+#footer div {
+    margin-left: 10vw;
+    margin-right: 15vw;
+    font-size: 1em;
+}
+
+#left {
+    float: left;
+}
+
+#der {
+    margin-top: 2%;
+    clear: right;
+    text-align: justify;
+    vertical-align: middle;
+}
+#left a{
+ 
+    color: white;
 }
