@@ -1,6 +1,6 @@
 body {
     box-sizing: border-box;
-    background-color: rgb(66, 113, 81);
+    background-color: #427151;
     border-style: solid;
     border-width: 8px;
     border-color: rgb(177, 107, 38);
@@ -124,6 +124,7 @@ h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
+    font-weight: bold;
 }
 .subt{
     font-weight: bold;
@@ -169,6 +170,19 @@ h1{
     width: 756px;
     max-height: 450px;
     
+}
+.pgrande{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+.resaltar{
+    font-weight:1100;
+    font-size: 1.25rem;
+    color: rgb(0, 2, 141);
+
 }
 figcaption{
     font-size: small;
